@@ -16,13 +16,13 @@ English | [中文](./readme.zh.md)
 
 1. Create a new public GitHub Gist (https://gist.github.com/)
 1. Create an access token with the `gist` scope and copy it. (https://github.com/settings/tokens/new)
-1. Find UID in Bilibili personal space link (https://space.bilibili.com/37728693)
+1. Find UID in Bilibili personal space link (https://space.bilibili.com/)
 
 
 ### Project setup
 
 1. Fork this repo
-1. Edit the [environment variables](https://github.com/KeJunMao/bilibili-box/blob/master/.github/workflows/main.yml#L27-L28) in `.github/workflows/schedule.yml`:
+1. Edit the [environment variables](https://github.com/rdp-studio/bilibili-box/blob/master/.github/workflows/main.yml#L27-L28) in `.github/workflows/schedule.yml`:
 
    - **UID:** The user handle of the bilibili account.
    - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/matchai/`**`6d5f84419863089a167387da62dd7081`**.
