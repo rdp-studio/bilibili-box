@@ -30,3 +30,4 @@ English | [中文](./readme.zh.md)
 1. Go to the repo **Settings > Secrets**
 1. Add the following environment variables:
    - **GH_TOKEN:** The GitHub access token generated above.
+
